@@ -1,0 +1,193 @@
+// LARGE SCREEN
+@media screen and(min-width: 1355px) {
+    
+}
+
+// DESCTOP
+@media screen and(max-width: 1350px) {
+    
+}
+
+// TABLET
+@media screen and(max-width: 1024px) {
+    .workshop {
+        .container {
+            padding-left: 50px;
+        }
+        .sidebar {
+            left: -150px;
+            .sidebar-btn {
+                display: block;
+            }
+        }
+        
+    .first-course__text {
+        font-size: 32px;
+    }
+    .create-course {
+        width: 250px;
+    }
+    }
+
+    .published-item {
+        height: auto;
+        flex-direction: column-reverse;
+
+        .published-item-left {
+            width: 100% !important;
+            flex-direction: row !important;
+            align-items: flex-end;
+            margin-top: 20px;
+
+            .extend-placement__btn {
+                width: 25%;
+            }
+        }
+    }
+
+    .published-item-right {
+        width: 100% !important;
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .workshop {
+        .container {
+            overflow: hidden;
+        }
+        .levelUp-btn {
+            height: 50px;
+            font-size: 25px;
+        }
+        .workshop-item {
+            overflow-x: scroll;
+            &::-webkit-scrollbar {
+                height: 0;
+            }
+        }
+        .workshop-list {
+            min-width: 125px;
+            padding: 0px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            border: 2px solid var(--gray);
+        }
+        .active_workshop {
+             background-color: var(--blue);
+            color: var(--white);
+            border: 2px solid var(--blue);
+        }
+        .first-course__text {
+            font-size: 26px;
+        }
+        .create-course {
+            margin-bottom: 20px;
+        }
+        .course__text {
+            font-size: 14px;
+        }
+
+        .create-course-info {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .info-list {
+                margin-top: 25px;
+                text-align: center;
+                .info__text{
+                    font-size: 14px;
+                }
+            }
+        }
+        .what-if-btn {
+            font-size: 16px;
+        }
+
+        .workshop-questions {
+            padding-bottom: 50px;
+            .workshop-questions__title {
+                font-size: 20px;
+            }
+            .workshop-questions__info {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+// MOBILE
+@media screen and(max-width: 576px) {
+        .footer-workshop {
+            &__leveUp {
+                display: none !important;
+            }
+        }
+    .your-courses {
+        .your-courses-item {
+            &__title {
+                font-size: 22px;   
+            }
+            &__text {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .published {
+        .backTo-course-list {
+            font-size: 18px;
+        }
+        .first-course__text {
+            font-size: 22px;
+        }
+        .published__num {
+            font-size: 24px;
+        }
+    }
+
+    .published-item {
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 10px;
+
+        .published-item-left {
+            width: 100% !important;
+            flex-direction: column !important;
+            align-items: center;
+            margin-top: 20px;
+
+            .extend-placement__btn {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .published-item-right {
+        width: 100% !important;
+        .typography-title {
+            font-size: 24px !important;
+        }
+        .typography-text {
+            font-size: 15px;
+            font-weight: 400 !important;
+        }
+        .price {
+            .price__num {
+                width: auto !important;
+                font-size: 20px !important;
+                text-align: center;
+            }
+            .price__text {
+                font-size: 12px !important;
+                font-weight: 200 !important;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 420px) {
+    
+}
