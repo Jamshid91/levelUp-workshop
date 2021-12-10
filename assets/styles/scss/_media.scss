@@ -10,6 +10,11 @@
 
 // TABLET
 @media screen and(max-width: 1024px) {
+    .levelUp-btn {
+    width: 140px;
+    height: 60px;
+    font-size: 28px;
+}
     .workshop {
         .container {
             padding-left: 50px;
@@ -21,12 +26,20 @@
             }
         }
         
-    .first-course__text {
-        font-size: 32px;
-    }
-    .create-course {
-        width: 250px;
-    }
+        .workshop__title-text {
+            font-size: 34px;
+        }
+            
+        .first-course__text {
+            font-size: 32px;
+        }
+        .create-course {
+            width: 250px;
+        }
+        
+    .workshop-list {
+        font-size: 18px;
+       }
     }
 
     .published-item {

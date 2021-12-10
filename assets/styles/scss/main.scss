@@ -59,7 +59,7 @@ input, textarea {
         width: 170px;
         height: 100%;
         padding: 180px 20px 50px 20px;
-        border-right: 1px solid var(--black);
+        border-right: 1px solid var(--gray);
         background-color: var(--white);
         z-index: 99;
         transition: .3s;
@@ -105,6 +105,14 @@ input, textarea {
         height: 44px;
         border-radius: 50%;
         background-color: var(--gray);
+        font-weight: 600;
+        font-size: 18px;
+        color: #4B4B4B;
+    }
+    .workshop__title-text {
+        font-size: 42px;
+        font-weight: 600;
+        margin-bottom: 22px;
     }
     .workshop-item {
         margin-bottom: 75px;
@@ -112,7 +120,9 @@ input, textarea {
     .workshop-list {
         border-bottom: 2px solid transparent;
         cursor: pointer;
-    }
+        font-size: 22px;
+        font-weight: 600;
+       }
     .active_workshop {
         border-bottom: 2px solid var(--blue);
         color: var(--blue);
