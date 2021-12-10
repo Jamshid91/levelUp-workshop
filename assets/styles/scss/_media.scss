@@ -64,6 +64,9 @@
 }
 
 @media screen and(max-width: 768px) {
+    .workshop .container {
+        padding-left: 30px;
+    }
     .workshop {
         .container {
             overflow: hidden;
@@ -127,6 +130,10 @@
                 font-size: 14px;
             }
         }
+    }
+
+    footer {
+        margin-top: 50px;
     }
 }
 

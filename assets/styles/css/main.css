@@ -256,6 +256,24 @@ input, textarea {
   margin-top: 50px;
 }
 
+.workshop .create-course-info .course-photo {
+  min-width: 160px;
+  min-height: 160px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: relative;
+}
+
+.workshop .create-course-info .course-photo .info__img {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .workshop .create-course-info .info__num {
   min-width: 50px;
   min-height: 50px;
@@ -551,6 +569,9 @@ footer .footer__link:hover {
 
 @media screen and (max-width: 768px) {
   .workshop .container {
+    padding-left: 30px;
+  }
+  .workshop .container {
     overflow: hidden;
   }
   .workshop .levelUp-btn {
@@ -622,6 +643,9 @@ footer .footer__link:hover {
   }
   .workshop .workshop-questions .workshop-questions__info {
     font-size: 14px;
+  }
+  footer {
+    margin-top: 50px;
   }
 }
 
